@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    /* background-color: blanchedalmond;  */
+/* background-image: url(https://cdn.pixabay.com/photo/2023/09/29/14/58/road-8284023_640.jpg); */
+background-color: blueviolet;
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+animation: mudarCores 5s infinite;
+
+
+
+}
+
+img{ 
+    height: 500px;
+    text-align: center;
+    padding-left: 100px;
+    border-radius: 20px;
+    border-bottom: 30px;
+    border-left: 20px;
+
+}
+
+main{
+    /* border: red 3px solid; */
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(240, 177, 100, 0.747);
+    border-radius: 15px;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(18, 18, 99);
+    /* font-weight: bolder; */
+    /* font-style: italic; */
+    font-stretch: extra-expanded;
+line-height: 50px;
+/* letter-spacing: 2px; */
+/* word-spacing: 10px; */
+text-align: justify;
+text-decoration: dashed;
+text-transform: uppercase;
+text-indent: 50px;
+text-shadow: 10px 10px 10px red;
+}
+
+h1{ 
+    font-family: monospace;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-stretch: narrower;
+    text-decoration: double;
+
+
+
+
+}
+
+@keyframes mudarCores {
+    0% {background-color: blue;
+    }
+    25% {background-color: brown;
+    }
+    50% {background-color: cadetblue;
+    }
+    75% {background-color: darkgreen;
+    }
+    100% {background-color: 18, 18, 99;
+    }
+}
+
